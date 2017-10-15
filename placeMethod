@@ -1,0 +1,10 @@
+from tkinter import *
+myGui = Tk()
+myGui.title("Python-GUI")
+myGui.geometry("500x500+100+50")
+myLabel1 = Label(text='label one',fg='red').place(x=100,y=100)
+myLabel2 = Label(text='label two',fg='green',bg='black')
+myLabel2 .place(x=200,y=100)
+myGui.mainloop()
+ 
+ 
